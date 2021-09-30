@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agh.ii.prinjava.lab01.lst01_09.HelloJavaRecordTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-26T11:49:45" hostname="LAPTOP-H7DJ7MKI" time="0.03">
+  <properties/>
+  <testcase name="testRecord()" classname="agh.ii.prinjava.lab01.lst01_09.HelloJavaRecordTest" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

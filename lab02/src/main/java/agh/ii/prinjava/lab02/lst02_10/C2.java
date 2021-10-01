@@ -9,3 +9,5 @@ class C2 implements I2 {
         System.out.println("C2.m1()");
     }
 }
+
+

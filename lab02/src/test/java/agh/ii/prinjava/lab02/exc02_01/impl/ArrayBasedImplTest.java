@@ -5,7 +5,10 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ArrayBasedImplTest {
 
@@ -23,5 +26,17 @@ class ArrayBasedImplTest {
     @Test
     void newStackIsEmpty() {
         assertTrue(stackOfInts.isEmpty());
+    }
+
+    @Test
+    void test_addList() {
+        stackOfInts.push(2);
+        assertEquals(2,stackOfInts.peek());
+    }
+
+    @Test
+    void pop_test() {
+        stackOfInts.push(10);
+        assertEquals(10, stackOfInts.pop());
     }
 }

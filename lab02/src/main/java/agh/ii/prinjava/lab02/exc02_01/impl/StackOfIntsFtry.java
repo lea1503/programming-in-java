@@ -27,4 +27,5 @@ public final class StackOfIntsFtry {
             case L_LIST_B -> new LinkedListBasedImpl();
         };
     }
+
 }

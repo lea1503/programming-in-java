@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agh.ii.prinjava.lab02.exc02_01.impl.LinkedListBasedImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-13T19:58:36" hostname="LAPTOP-H7DJ7MKI" time="0.021">
+  <properties/>
+  <testcase name="test_push()" classname="agh.ii.prinjava.lab02.exc02_01.impl.LinkedListBasedImplTest" time="0.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

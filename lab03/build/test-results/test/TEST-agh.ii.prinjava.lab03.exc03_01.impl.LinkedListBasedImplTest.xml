@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="agh.ii.prinjava.lab03.exc03_01.impl.LinkedListBasedImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-06T17:12:38" hostname="LAPTOP-H7DJ7MKI" time="0.069">
+<testsuite name="agh.ii.prinjava.lab03.exc03_01.impl.LinkedListBasedImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-14T10:42:34" hostname="LAPTOP-H7DJ7MKI" time="0.02">
   <properties/>
-  <testcase name="newQueueIsEmpty()" classname="agh.ii.prinjava.lab03.exc03_01.impl.LinkedListBasedImplTest" time="0.069"/>
+  <testcase name="enqueueTest()" classname="agh.ii.prinjava.lab03.exc03_01.impl.LinkedListBasedImplTest" time="0.02"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

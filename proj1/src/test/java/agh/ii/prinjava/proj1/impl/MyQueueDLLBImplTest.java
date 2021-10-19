@@ -21,6 +21,9 @@ class MyQueueDLLBImplTest {
     /**
      * enqueueTest verifies if enqueue method works well
      * and if peek method is okay.
+     * First, I try to add 2 new elements in my queue.
+     * I'm expected to have "10" because the peek function returns the first element.
+     * enqueue method is like addLast method because it is a queue.
      */
 
     @Test
@@ -32,6 +35,9 @@ class MyQueueDLLBImplTest {
 
     /**
      * dequeueTest verifies if dequeue method works well.
+     * First, I add 2 new elements in my queue.
+     * I'm expected to have "10" because I want to delete the first element.
+     * The current order is following: "10", "3".
      */
 
     @Test
@@ -43,6 +49,10 @@ class MyQueueDLLBImplTest {
 
     /**
      * numOfElemTest verifies if the numOfElems method works well.
+     * First, I add 2 new elements.
+     * The current order is following: "10", "3" because I used enqueue method.
+     * Then, I remove the first element. So, the current order is now: "3".
+     * So, I'm expected to have only one element in my list.
      */
 
     @Test

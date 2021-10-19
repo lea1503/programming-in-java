@@ -2,12 +2,18 @@ package agh.ii.prinjava.proj1.impl;
 
 import agh.ii.prinjava.proj1.MyQueue;
 
+/**
+ * elems has as type DLinkList<E>. So, we can use the corresponding methods that I've already created
+ * in the DlinkList.
+ */
+
 public class MyQueueDLLBImpl<E> implements MyQueue<E> {
     private DLinkList<E> elems = new DLinkList<>();
 
+
     /**
      * enqueue is a method that adds an element at the end of the queue.
-     * @param x, type E.
+     * @param x, type E, the value of the added element.
      */
 
     @Override
@@ -18,7 +24,7 @@ public class MyQueueDLLBImpl<E> implements MyQueue<E> {
     /**
      * dequeue is a method that deletes the first element of the queue.
      * @return E, value of the deleted element.
-     * @throws "IllegalStateException" if the queue is empty.
+     * @throws "IllegalStateException". Be careful, it will return an exception if the queue is empty.
      */
 
     @Override
@@ -39,6 +45,7 @@ public class MyQueueDLLBImpl<E> implements MyQueue<E> {
 
     /**
      * peek is a method that displays the value of the first element of the queue.
+     * Here I put 1 in the peek method because I'm interested with the first element.
      * @return E.
      */
 

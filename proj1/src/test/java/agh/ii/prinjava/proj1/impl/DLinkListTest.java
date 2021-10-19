@@ -22,6 +22,11 @@ class DLinkListTest {
     /**
      * addTest verifies if the addFirst method works well
      * and if peek method is okay.
+     * First, we try to add 2 new nodes in my list.
+     * I use the assertEquals method to check it. I'm expected to have 5 because
+     * peek returns the first element of the list, and I used addFirst method to add them.
+     * So, first I add "10" to the first place, then I add "5" to the first place.
+     * So, I have "5" then "10" in my list.
      */
 
     @Test
@@ -33,6 +38,10 @@ class DLinkListTest {
 
     /**
      * addTest2 verifies if the addLast method works well.
+     * First, I add 3 new nodes to the last place in my list.
+     * So, I'm expected to have "20" because peek returns here the last element of my list.
+     * Now, order in my list : "5", "10", "20"
+     * Notice that I can also use peek(1), in this way I'm expected to have "5".
      */
 
     @Test
@@ -45,6 +54,9 @@ class DLinkListTest {
 
     /**
      * removeTest verifies if the removeFirst method works well.
+     * First, I add 2 new elements.
+     * The current order is following: "5", "10" because I used addFirst method.
+     * I want to remove the first element, so "5".
      */
 
     @Test
@@ -56,6 +68,9 @@ class DLinkListTest {
 
     /**
      * removeTest2 verifies if the removeLast method works well.
+     * First, I add 2 new elements.
+     * The current order is following: "5", "10" because I used addFirst method.
+     * I want to remove the first element, so "10".
      */
 
     @Test
@@ -67,6 +82,10 @@ class DLinkListTest {
 
     /**
      * numOfElemTest verifies if the numOfElems method works well.
+     * First, I add 2 new elements.
+     * The current order is following: "5", "10" because I used addFirst method.
+     * Then, I remove the last element. So, the current order is now: "5".
+     * So, I'm expected to have only one element in my list.
      */
 
     @Test
@@ -79,6 +98,9 @@ class DLinkListTest {
 
     /**
      * toStringTest verifies if the toString method works well.
+     * First, I add 3 new elements in my list.
+     * I just want to display some information according the toString method.
+     * The order in my list is following: "3", "2", "10".
      */
 
     @Test

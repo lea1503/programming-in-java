@@ -21,6 +21,9 @@ class MyStackDLLBImplTest {
     /**
      * pushTest verifies if the push method works well
      * and if the peek method works well.
+     * First, I add 2 elements in my stack like addFirst method because it is a stack.
+     * The current order is: "2", "5".
+     * I'm expected to have 2 because peek returns the first element in the stack.
      */
 
     @Test
@@ -32,6 +35,9 @@ class MyStackDLLBImplTest {
 
     /**
      * popTest verifies is the pop method works well.
+     * First, I add 2 elements in my stack like addFirst method because it is a stack.
+     * The current order is: "10", "5".
+     * I'm expected to have "10" because pop deletes the first element of the stack.
      */
 
     @Test
@@ -43,6 +49,9 @@ class MyStackDLLBImplTest {
 
     /**
      * numOfElemTest verifies if the numOfElems method works well.
+     * First, I add 2 elements in my stack like addFirst method because it is a stack.
+     * The current order is: "10", "5".
+     * So, I'm expected to have 2 elements in my stack.
      */
 
     @Test

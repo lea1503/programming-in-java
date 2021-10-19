@@ -4,7 +4,10 @@ public class DLinkList<E> {
 
     /**
      * Node is a class that defines a node.
-     * @param <T>.
+     * It allows to construct some linked lists or stacks or queues.
+     * We can create a node, to put it into a linked list, stack or queue.
+     * We can add it, delete it, return its values, etc.
+     * @param <T> It is a generic class of type T (T: type).
      */
 
     private static class Node<T> {
@@ -25,7 +28,7 @@ public class DLinkList<E> {
 
     /**
      * addFirst is a method that adds an element at the beginning of the linked list.
-     * @param e, type E.
+     * @param e, type E. Generic method (E: element).
      */
 
     public void addFirst(E e) {
@@ -65,7 +68,7 @@ public class DLinkList<E> {
     /**
      * removeFirst is a method that deletes the first element of the linked list.
      * @return E, value of the deleted element.
-     * @throws "IllegalStateException" if the linked list is empty.
+     * @exception  "IllegalStateException". Be careful, it will return an exception if the linked list is empty.
      */
 
     public E removeFirst() {
@@ -93,7 +96,7 @@ public class DLinkList<E> {
     /**
      * removeLast is a method that deletes the last element of the linked list.
      * @return E, value of the deleted element.
-     * @throws "IllegalStateException" if the linked list is empty.
+     * @exception  "IllegalStateException". Be careful, it will return an exception if the linked list is empty.
      */
 
     public E removeLast(){
@@ -120,8 +123,10 @@ public class DLinkList<E> {
 
     /**
      * peek is a method that displays the value of the first element or of the last element of the linked list.
-     * @param n, type integer.
-     * @return E.
+     * @param n, type integer. It has as a boolean function. If it is 0, it returns the value of the first element
+     *           if it is 1, it returns the value of the last element. Notice that this boolean is not very useful
+     *           but we can do this like this too.
+     * @return E, the value of first or last element in the linked list.
      */
 
     public E peek(int n) {
@@ -153,6 +158,7 @@ public class DLinkList<E> {
      */
 
     public int numOfElems() {
+
         return numOfElems;
     }
 }

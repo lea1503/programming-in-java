@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agh.ii.prinjava.proj1.impl.MyQueueDLLBImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-19T16:22:07" hostname="LAPTOP-H7DJ7MKI" time="0.031">
+  <properties/>
+  <testcase name="enqueueTest()" classname="agh.ii.prinjava.proj1.impl.MyQueueDLLBImplTest" time="0.031"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

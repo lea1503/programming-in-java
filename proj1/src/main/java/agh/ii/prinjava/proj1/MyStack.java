@@ -2,6 +2,12 @@ package agh.ii.prinjava.proj1;
 
 import agh.ii.prinjava.proj1.impl.MyStackDLLBImpl;
 
+/**
+ * MyStack is the interface of the MyStackDLLBImpl.
+ * There are all methods that will be implemented in MyStackDLLBImpl class.
+ * @param <E>, generic type, E: element.
+ */
+
 public interface MyStack<E> {
 
     /**

@@ -2,6 +2,12 @@ package agh.ii.prinjava.proj1;
 
 import agh.ii.prinjava.proj1.impl.MyQueueDLLBImpl;
 
+/**
+ * MyQueue is the interface of the MyQueueDLLBImpl.
+ * There are all methods that will be implemented in MyQueueDLLBImpl class.
+ * @param <E>, generic type, E: element.
+ */
+
 public interface MyQueue<E> {
 
     /**

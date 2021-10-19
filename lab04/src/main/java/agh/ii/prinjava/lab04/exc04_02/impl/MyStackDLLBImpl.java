@@ -7,7 +7,7 @@ public class MyStackDLLBImpl<E> implements MyStack<E> {
 
     @Override
     public E pop() {
-        throw new IllegalStateException("To be implemented");
+        DLinkList<E> n = new DLinkList<>;
     }
 
     @Override

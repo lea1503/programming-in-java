@@ -28,6 +28,10 @@ public class DLinkList<E> {
 
     /**
      * addFirst is a method that adds an element at the beginning of the linked list.
+     * First, we need to create a new node.
+     * Then, we need to check if the list is empty, if yes: we initialize its first and last as new node.
+     * Finally, if there are at least one element in the list: we need to initialize it as the first node
+     * (with its previous and next).
      * @param e, type E. Generic method (E: element).
      */
 
@@ -48,6 +52,10 @@ public class DLinkList<E> {
 
     /**
      * addLast is a method that adds an element at the end of the linked list.
+     * First, we need to create a new node.
+     * Then, we need to check if the list is empty, if yes: we initialize its first and last as new node.
+     * Finally, if there are at least one element in the list: we need to initialize it as the last node
+     * (with its previous and next).
      * @param e, type E.
      */
 
@@ -57,6 +65,7 @@ public class DLinkList<E> {
 
         if (first == null) {
             first = new_node;
+
         } else {
             last.next = new_node;
             new_node.prev = last;
@@ -67,6 +76,11 @@ public class DLinkList<E> {
 
     /**
      * removeFirst is a method that deletes the first element of the linked list.
+     * First, we need to check if the list is empty, if yes: display exception.
+     * Then, we need to check if there is only one element of the list, if yes: put directly last and
+     * first at null.
+     * Finally, if there are more than 1 element: I used a local variable to store the second element (first.next)
+     * and put directly last and first of it at null.
      * @return E, value of the deleted element.
      * @exception  "IllegalStateException". Be careful, it will return an exception if the linked list is empty.
      */
@@ -95,6 +109,11 @@ public class DLinkList<E> {
 
     /**
      * removeLast is a method that deletes the last element of the linked list.
+     * First, we need to check if the list is empty, if yes: display exception.
+     * Then, we need to check if there is only one element of the list, if yes: put directly last and
+     * first at null.
+     * Finally, if there are more than 1 element: I used a local variable to store the second last one and
+     * put directly last and first of it at null.
      * @return E, value of the deleted element.
      * @exception  "IllegalStateException". Be careful, it will return an exception if the linked list is empty.
      */

@@ -82,9 +82,8 @@ public class DLinkList<E> {
      * Finally, if there are more than 1 element: I used a local variable to store the second element (first.next)
      * and put directly last and first of it at null.
      * @return E, value of the deleted element.
-     * @exception  "IllegalStateException". Be careful, it will return an exception if the linked list is empty.
+     * @throws IllegalStateException if the linked list is empty.
      */
-
     public E removeFirst() {
         if (first == null) {
             throw new IllegalStateException("Your queue is already empty !");
@@ -115,7 +114,7 @@ public class DLinkList<E> {
      * Finally, if there are more than 1 element: I used a local variable to store the second last one and
      * put directly last and first of it at null.
      * @return E, value of the deleted element.
-     * @exception  "IllegalStateException". Be careful, it will return an exception if the linked list is empty.
+     * @throws IllegalStateException if the linked list is empty.
      */
 
     public E removeLast(){
@@ -144,7 +143,7 @@ public class DLinkList<E> {
      * peek is a method that displays the value of the first element or of the last element of the linked list.
      * @param n, type integer. It has as a boolean function. If it is 0, it returns the value of the first element
      *           if it is 1, it returns the value of the last element. Notice that this boolean is not very useful
-     *           but we can do this like this too.
+     *           but we can do this like this to use it easily for testing.
      * @return E, the value of first or last element in the linked list.
      */
 

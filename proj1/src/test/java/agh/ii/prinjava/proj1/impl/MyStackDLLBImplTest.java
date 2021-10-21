@@ -25,7 +25,6 @@ class MyStackDLLBImplTest {
      * The current order is: "2", "5".
      * I'm expected to have 2 because peek returns the first element in the stack.
      */
-
     @Test
     void pushTest(){
         stackOfInts.push(5);
@@ -39,7 +38,6 @@ class MyStackDLLBImplTest {
      * The current order is: "10", "5".
      * I'm expected to have "10" because pop deletes the first element of the stack.
      */
-
     @Test
     void popTest(){
         stackOfInts.push(5);
@@ -53,7 +51,6 @@ class MyStackDLLBImplTest {
      * The current order is: "10", "5".
      * So, I'm expected to have 2 elements in my stack.
      */
-
     @Test
     void numOfElemsTest(){
         stackOfInts.push(5);

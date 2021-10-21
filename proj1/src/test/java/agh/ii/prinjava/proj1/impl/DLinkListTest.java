@@ -61,8 +61,8 @@ class DLinkListTest {
 
     @Test
     void removeTest(){
-        dLinkList.addFirst(10);
-        dLinkList.addFirst(5);
+        dLinkList.addLast(5);
+        dLinkList.addLast(10);
         assertEquals(5, dLinkList.removeFirst());
     }
 
@@ -72,7 +72,6 @@ class DLinkListTest {
      * The current order is following: "5", "10" because I used addFirst method.
      * I want to remove the first element, so "10".
      */
-
     @Test
     void removeTest2(){
         dLinkList.addFirst(10);
@@ -87,7 +86,6 @@ class DLinkListTest {
      * Then, I remove the last element. So, the current order is now: "5".
      * So, I'm expected to have only one element in my list.
      */
-
     @Test
     void numOfElemTest(){
         dLinkList.addFirst(10);
@@ -102,7 +100,6 @@ class DLinkListTest {
      * I just want to display some information according the toString method.
      * The order in my list is following: "3", "2", "10".
      */
-
     @Test
     void toStringTest(){
         dLinkList.addFirst(10);

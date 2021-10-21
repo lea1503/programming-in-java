@@ -25,7 +25,6 @@ class MyQueueDLLBImplTest {
      * I'm expected to have "10" because the peek function returns the first element.
      * enqueue method is like addLast method because it is a queue.
      */
-
     @Test
     void enqueueTest(){
         queueOfInts.enqueue(10);
@@ -39,7 +38,6 @@ class MyQueueDLLBImplTest {
      * I'm expected to have "10" because I want to delete the first element.
      * The current order is following: "10", "3".
      */
-
     @Test
     void dequeueTest(){
         queueOfInts.enqueue(10);
@@ -54,7 +52,6 @@ class MyQueueDLLBImplTest {
      * Then, I remove the first element. So, the current order is now: "3".
      * So, I'm expected to have only one element in my list.
      */
-
     @Test
     void numOfElemsTest(){
         queueOfInts.enqueue(10);

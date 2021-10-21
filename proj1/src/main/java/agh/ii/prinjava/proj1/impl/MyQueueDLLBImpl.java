@@ -15,7 +15,6 @@ public class MyQueueDLLBImpl<E> implements MyQueue<E> {
      * enqueue is a method that adds an element at the end of the queue.
      * @param x, type E, the value of the added element.
      */
-
     @Override
     public void enqueue(E x) {
         elems.addLast(x);
@@ -24,9 +23,8 @@ public class MyQueueDLLBImpl<E> implements MyQueue<E> {
     /**
      * dequeue is a method that deletes the first element of the queue.
      * @return E, value of the deleted element.
-     * @throws "IllegalStateException". Be careful, it will return an exception if the queue is empty.
+     * @throws IllegalStateException if the queue is empty.
      */
-
     @Override
     public E dequeue() {
         return elems.removeFirst();
@@ -36,7 +34,6 @@ public class MyQueueDLLBImpl<E> implements MyQueue<E> {
      * numOfElems is a method that returns the number of element in the queue.
      * @return integer.
      */
-
     @Override
     public int numOfElems() {
         return elems.numOfElems();
@@ -48,7 +45,6 @@ public class MyQueueDLLBImpl<E> implements MyQueue<E> {
      * Here I put 1 in the peek method because I'm interested with the first element.
      * @return E.
      */
-
     @Override
     public E peek() {
         return elems.peek(1);

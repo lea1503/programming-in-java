@@ -176,7 +176,6 @@ public class DLinkList<E> {
      */
 
     public int numOfElems() {
-
         return numOfElems;
     }
 }
